@@ -1,5 +1,5 @@
 import os
 
-os.system("clear")
+print("\033[2J\033[H", end="")
 
 print("Hello World!")
